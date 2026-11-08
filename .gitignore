@@ -1,0 +1,24 @@
+# Local Python environment
+.venv/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Local credentials and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Original workbook and large transaction exports
+data/raw/
+data/processed/retail_customers_clean.csv
+
+# Local editor and operating-system files
+.vscode/
+Thumbs.db
+.DS_Store
